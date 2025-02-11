@@ -30,3 +30,40 @@ main {
     height: calc(100vh - 90px);
     background-color: #151922;
 }
+
+.row {
+    display: flex;
+}
+
+.col-right {
+    width: 55px;
+    background-color: black;
+    padding: 13px;
+}
+
+.col-right .logo {
+    color: #ffffff;
+}
+
+.blogo {
+    display: none;
+}
+
+
+
+
+/* Responsive Layout */
+
+/* Desktop */
+
+@media screen and (min-width: 992px) {
+
+    .logo {
+        display: none;
+    }
+
+    .blogo {
+        display: block;
+    }
+    
+}
