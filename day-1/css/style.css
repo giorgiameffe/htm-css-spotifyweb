@@ -32,13 +32,13 @@ body {
 
 
 footer {
-    height: 90px;
+    height: 80px;
     background-color: #282828;
 
 }
 
 main {
-    height: calc(100vh - 90px);
+    height: calc(100vh - 70px);
     background-color: #151922;
 }
 
@@ -51,6 +51,8 @@ nav {
 .col-left {
     width: 55px;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -69,13 +71,10 @@ nav {
     padding-bottom: 10px;
 }
 
-.playlist-icon {
-    font-size: 50px;
-}
 
-.playlist {
-    display: none;
-}
+
+
+
 
 
 
@@ -117,9 +116,8 @@ nav {
     align-items: center;
    }
 
-   .playlist {
-    display: block; 
-   }
+
+
 
 }
     
