@@ -14,11 +14,18 @@ li {
     list-style-type: none;
 }
 
+/* Common */
+
+img {
+    max-width: 100%;
+    display: block;
+}
 
 body {
     font-family: "Montserrat", serif;
     height: 100vh;
 }
+
 
 footer {
     height: 90px;
@@ -31,23 +38,23 @@ main {
     background-color: #151922;
 }
 
-.row {
-    display: flex;
-}
+/* Nav */
 
-.col-right {
-    width: 55px;
-    background-color: black;
+nav {
     padding: 13px;
 }
 
-.col-right .logo {
-    color: #ffffff;
+.col-left {
+    width: 55px;
+    background-color: black;
 }
 
-.blogo {
+.blogo  {
     display: none;
 }
+
+
+
 
 
 
@@ -58,12 +65,17 @@ main {
 
 @media screen and (min-width: 992px) {
 
-    .logo {
-        display: none;
+   .col-left {
+    width: 225px;
+   }
+
+   .blogo {
+    display: block;
     }
 
-    .blogo {
-        display: block;
-    }
+   .logo {
+    display: none;
+   }
+
     
 }
