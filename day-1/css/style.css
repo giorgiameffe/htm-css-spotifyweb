@@ -21,6 +21,10 @@ img {
     display: block;
 }
 
+.bg-grey {
+    color: #5c5c5c;
+}
+
 body {
     font-family: "Montserrat", serif;
     height: 100vh;
@@ -49,12 +53,29 @@ nav {
     background-color: black;
 }
 
+.logo {
+    padding-bottom: 20px;
+}
+
 .blogo  {
     display: none;
 }
 
+.menu-item {
+    display: none;
+}
 
+.menu li {
+    padding-bottom: 10px;
+}
 
+.playlist-icon {
+    font-size: 50px;
+}
+
+.playlist {
+    display: none;
+}
 
 
 
@@ -64,6 +85,8 @@ nav {
 /* Desktop */
 
 @media screen and (min-width: 992px) {
+    
+    /* Menu bar */
 
    .col-left {
     width: 225px;
@@ -71,11 +94,35 @@ nav {
 
    .blogo {
     display: block;
+    padding-bottom: 25px;
     }
 
    .logo {
     display: none;
    }
 
-    
+   .menu img {
+    width: 20%;
+    display: inline-block;
+   }
+
+   .menu-item {
+    padding-left: 10px;
+    display: inline;
+    color: #5c5c5c;
+   }
+
+   .menu li {
+    display: flex;
+    align-items: center;
+   }
+
+   .playlist {
+    display: block; 
+   }
+
 }
+    
+
+
+
