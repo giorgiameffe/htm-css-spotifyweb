@@ -6,8 +6,27 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 
 body {
     font-family: "Montserrat", serif;
+    height: 100vh;
 }
 
+footer {
+    height: 90px;
+    background-color: #282828;
+
+}
+
+main {
+    height: calc(100vh - 90px);
+    background-color: #151922;
+}
