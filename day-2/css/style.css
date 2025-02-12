@@ -118,7 +118,7 @@ footer {
 
 .top-main {
     height: 90px;
-    background-color: #080b12;
+    background-color: #151922;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -128,6 +128,7 @@ footer {
     top: 0px;
     right: 0px;
     z-index: 3;
+    filter: brightness(0.5);
 }
 
 .top-main-button {
@@ -159,6 +160,11 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
 
+}
+
+.main-menu li:first-child {
+    border-bottom: 3px solid #adff2f;
+    padding-bottom: 4px;
 }
 
 .h5 {
@@ -259,7 +265,7 @@ h2 {
     display: none;
    }
 
-   /* Menu elements */
+   /* Menu sidebar */
 
    .menu img {
     width: 20%;
@@ -292,6 +298,8 @@ h2 {
     margin-bottom: 20px;
    }
 
+   /* Play-icon */
+
    .playicon {
     display: block;
    }
@@ -303,6 +311,7 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+    
     .playicon {
         display: none;
     }
