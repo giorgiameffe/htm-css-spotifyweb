@@ -296,12 +296,36 @@ h2 {
     display: block;
    }
    
-   .heavymetal-card {
+   .playcard {
     filter: brightness(0.5);
    }
 
 }
 
+@media screen and (min-width: 768px) {
+    .playicon {
+        display: none;
+    }
+        
+    .playcard {
+        filter: brightness(100%);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    .playcard2 {
+        filter: brightness(0.5);
+    }
+        
+    .playicon2 {
+        position: relative;
+        bottom: 200px;
+        color: white;
+        font-size: 50px;
+        display: block;
+        }
+}
 
 
 
