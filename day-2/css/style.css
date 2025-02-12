@@ -25,6 +25,10 @@ img {
     color: #5c5c5c;
 }
 
+.bg-white {
+    color: #ffffff;
+}
+
 /* Dimensioni */
 
 body {
@@ -136,6 +140,7 @@ footer {
     gap: 20px;
     font-size: 12px;
     padding: 0px 30px;
+    margin-bottom: 40px;
 }
 
 .main-menu li {
@@ -145,12 +150,46 @@ footer {
 
 }
 
+h2 {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.lastsongs {
+    padding-left: 20px;
+}
+.row {
+    display: flex;
+}
+
+.card {
+    width: 210px;
+    text-align: center;
+}
+
+.top-card {
+    margin-bottom: 20px;
+}
+
+.bottom-card-title {
+    margin-bottom: 10px;
+}
+
+.bottom-card {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+
 
 /* Responsive Layout */
 
 /* Desktop */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) {
     
 
    .sidebar {
@@ -203,14 +242,9 @@ footer {
     margin-bottom: 20px;
    }
 
-   
-
-
-
-
-
-
 }
+
+
     
 
 
