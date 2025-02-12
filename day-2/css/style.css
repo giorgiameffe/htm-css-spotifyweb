@@ -196,6 +196,19 @@ h2 {
     font-weight: bold;
 }
 
+/* Reccomendations */
+
+/* Create for */
+
+#recommended h2 {
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+    
+#recommended .tips {
+    margin-bottom: 30px;
+    font-size: 12px;
+}
 
 
 /* Responsive Layout */
@@ -252,8 +265,6 @@ h2 {
    .playlist-icon {
     margin-bottom: 20px;
    }
-
-   /* Main play icon */
 
 
 }
