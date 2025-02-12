@@ -60,6 +60,10 @@ footer {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+    position: sticky; 
+    top: 0px;
+    left: 0px;
+    z-index: 2;
 }
 
 /* Logo */
@@ -120,6 +124,10 @@ footer {
     align-items: center;
     padding-right: 20px;
     margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
 }
 
 .top-main-button {
@@ -195,6 +203,17 @@ h2 {
     font-size: 10px;
     font-weight: bold;
 }
+
+/* Play icon */
+
+.playicon {
+    position: relative;
+    bottom: 200px;
+    color: white;
+    font-size: 50px;
+    display: none;
+}
+
 
 /* Reccomendations */
 
@@ -273,6 +292,13 @@ h2 {
     margin-bottom: 20px;
    }
 
+   .playicon {
+    display: block;
+   }
+   
+   .heavymetal-card {
+    filter: brightness(0.5);
+   }
 
 }
 
