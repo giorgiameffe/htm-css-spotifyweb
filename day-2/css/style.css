@@ -200,15 +200,22 @@ h2 {
 
 /* Create for */
 
-#recommended h2 {
+.recommended h2 {
     margin-top: 45px;
     margin-bottom: 10px;
 }
-    
-#recommended .tips {
+
+.recommended .tips {
     margin-bottom: 30px;
     font-size: 12px;
 }
+
+/* Famous Artists */
+
+.roundimg {
+    border-radius: 50%;
+}
+
 
 
 /* Responsive Layout */
