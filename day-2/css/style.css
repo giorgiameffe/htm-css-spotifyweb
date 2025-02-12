@@ -45,11 +45,13 @@ footer {
 
 .bigcontainer {
     height: calc(100% - 90px);
-    background-color: #151922;
+    background-color: #141922;
     display: flex;
+    overflow-y: scroll;
 }
 
-/* sidebar */
+
+/* Sidebar */
 
 .sidebar {
     width: 50px;
@@ -131,7 +133,8 @@ footer {
     
 }
 
-/* Main */
+/* Main */ 
+
 
 .main-menu {
     display: flex;
@@ -150,15 +153,24 @@ footer {
 
 }
 
+.h5 {
+    font-size: 16px;
+}
+
+/* Main content */
+
+.main-content {
+    padding-left: 20px;
+}
+
+/* Played recently */
+
 h2 {
     color: #ffffff;
     font-size: 16px;
     margin-bottom: 30px;
 }
 
-.lastsongs {
-    padding-left: 20px;
-}
 
 .row {
     display: flex;
@@ -186,11 +198,7 @@ h2 {
 
 
 
-
-
 /* Responsive Layout */
-
-/* Desktop */
 
 @media screen and (min-width: 576px) {
     
@@ -245,7 +253,14 @@ h2 {
     margin-bottom: 20px;
    }
 
+   /* Main play icon */
+
+
 }
+
+
+
+
 
 
     
