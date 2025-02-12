@@ -159,8 +159,11 @@ h2 {
 .lastsongs {
     padding-left: 20px;
 }
+
 .row {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .card {
