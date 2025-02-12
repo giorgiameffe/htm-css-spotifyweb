@@ -1,0 +1,182 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Common */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.bg-grey {
+    color: #5c5c5c;
+}
+
+/* Dimensioni */
+
+body {
+    font-family: "Montserrat", serif;
+    height: 100vh;
+}
+
+
+footer {
+    height: 90px;
+    background-color: #282828;
+
+}
+
+.bigcontainer {
+    height: calc(100% - 90px);
+    background-color: #151922;
+    display: flex;
+}
+
+/* sidebar */
+
+.sidebar {
+    width: 50px;
+    background-color: black;
+    padding: 10px 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+/* Logo */
+
+.logo-small {
+    padding: 0px 10px 20px;
+}
+
+.logo-big  {
+    display: none;
+}
+
+/* Menu */
+
+.menu {
+    padding: 0px 15px;
+}
+
+.profile {
+    margin-top: auto;
+}
+
+.menu-item {
+    display: none;
+}
+
+.menu li {
+    padding-bottom: 10px;
+}
+
+.playlist h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+    
+.playlist-icon {
+    font-size: 40px;
+}
+    
+.playlist {
+    display: none;
+}
+
+/* Main section */
+
+.bigcontainer main {
+    flex-grow: 1;
+    background-color: #151922;
+}
+
+.row {
+    height: 90px;
+    background-color: #080b12;
+}
+
+
+
+/* Responsive Layout */
+
+/* Desktop */
+
+@media screen and (min-width: 992px) {
+    
+
+   .sidebar {
+    width: 225px;
+    padding: 20px 0 5px;
+   }
+
+
+   /* Logo */
+
+   .logo-big {
+    display: block;
+    padding: 0px 70px 25px 20px;
+    }
+
+   .logo-small {
+    display: none;
+   }
+
+   /* Menu elements */
+
+   .menu img {
+    width: 20%;
+    display: inline-block;
+   }
+
+   .menu-item {
+    padding-left: 10px;
+    display: inline;
+    color: #5c5c5c;
+   }
+
+   .menu li {
+    display: flex;
+    align-items: center;
+   }
+
+   /* Playlist section */
+
+   .playlist {
+    display: inline;
+   }
+
+   .playlist h3 {
+    margin-bottom: 10px;
+    
+   }
+
+   .playlist-icon {
+    margin-bottom: 20px;
+   }
+
+   
+
+
+
+
+
+
+}
+    
+
+
+
