@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Corpo della pagina -->
+
+    <!-- Sidebar -->
+    <div class="bigcontainer">
+        <nav class="sidebar">
+            
+            <!-- Logo -->
+
+            <div class="logo">
+                <div class="logo-small"><a href="#"><img src="/img/logo-small.svg" alt="Logo"></a></div>
+                <div class="logo-big"><a href="#"><img src="/img/logo.svg" alt="Logo"></a></div>
+            </div>
+
+            <!-- /Logo -->
+
+            <!-- Menù -->
+
+            <ul class="menu bg-grey">
+                <li><a href="#"><img class="menu-photo" src="/img/home.svg" alt="Home"><span class="menu-item"></span><span class="menu-item">Home</span></a></li>
+                <li><a href="#"><img class="menu-photo" src="/img/search.svg" alt="Search"><span class="menu-item">Cerca</span></a></li>
+                <li><a href="#"><img class="menu-photo" src="/img/libreria.svg" alt="Library"><span class="menu-item">La tua libreria</span></a></li>
+            </ul>
+
+            <!-- /Menu -->
+
+            <!-- Playlist -->
+            
+            <section class="playlist bg-grey">
+                <h3>Playlist</h3>
+                <div class="create">
+                    <span class="playlist-icon"><i class="fa-solid fa-square-plus"></i></span>
+                    <span class="playlist-text"> Crea Playlist</span>
+                </div>
+                
+                <ul class="newplaylist">
+                    <li><a class="bg-grey" href="#">Nuova Playlist</a></li>
+                    <li><a class="bg-grey" href="#">Nuova Playlist</a></li>
+                </ul>
+            </section>
+
+            <!-- /Playlist -->
+            
+            <!-- User profile -->
+
+            <ul class="menu profile bg-grey">
+                <li class="list"><a href="#"><img class="menu-photo" src="/img/download.svg" alt="Download"><span class="menu-item">Installa App</span></a></li>
+                <li class="list"><a href="#"><img class="menu-photo" src="/img/profile.svg" alt="User Profile"><span class="menu-item">Giorgia Meffe</span></a></li>
+            </ul>
+
+            <!-- User Profile -->
+        </nav>
+
+        <!-- /Sidebar -->
+        
+        <!-- Main section -->
+
+        <main>
+
+            <!-- Upgrade -->
+
+            <div class="top-main">
+                <!-- <div> -->
+                    <a class="top-main-button" href="#">Effettua Upgrade</a>
+                <!-- </div> -->
+            </div>
+
+            <!-- /Upgrade -->
+
+            <!-- Menu -->
+
+            <ul class="main-menu">
+                <li><a href="">In evidenza</a></li>
+                <li>Podcast</li>
+                <li>Classifiche</li>
+                <li>Generi e mood</li>
+                <li>Nuove uscite</li>
+                <li>Scopri</li>
+            </ul>
+
+            <!-- Menu -->
+
+             <!-- Recently played section -->
+
+            <div class="main-content">
+                <section id="lastsongs">
+                    <h2>Recently played</h2>
+                    <div class="row">
+                        <div class="card">
+                            <img class="top-card playcard" src="../img/metal_lifting.jpg" alt="Heavy Metal">                        
+                            <h5 class="bg-white bottom-card-title">Heavy Metal</h5>
+                            <div class="bg-grey bottom-card">Subtitle</div>
+                            <a href="#" class="playicon"><i class="fa-regular fa-circle-play"></i></a>
+                        </div>
+                        
+                        <div class="card">
+                            <img class="top-card" src="../img/stranger.jpeg" alt="Stranger Things">
+                            <h5 class="bg-white bottom-card-title">Stranger Things.Vol 1 (a Netflix Original Series Soundtrack)</h5>
+                            <div class="bg-grey bottom-card">Kyle Dixon & Michael Stein</div>
+                        </div>
+                        
+                        <div class="card">
+                            <img class="top-card playcard2" src="../img/aquietplace.jpeg" alt="A quiet place">
+                            <h5 class="bg-white bottom-card-title">A quiet place</h5>
+                            <div class="bg-grey bottom-card">Subtitle</div>
+                            <a href="#" class="playicon2"><i class="fa-regular fa-circle-play"></i></a>
+                        </div>
+                        
+                        <div class="card">
+                            <img class="top-card" src="../img/split.jpeg" alt="Slit">
+                            <h5 class="bg-white bottom-card-title">Slit</h5>
+                            <div class="bg-grey bottom-card">Subtitle</div>
+                        </div>
+                        
+                        <div class="card">
+                            <img class="top-card" src="../img/cure.jpeg" alt="A cure for wellness">
+                            <h5 class="bg-white bottom-card-title">A cure for wellness</h5>
+                            <div class="bg-grey bottom-card">Subtitle</div>
+                        </div>
+                        
+                        <div class="card">
+                            <img class="top-card" src="../img/sinister.jpeg" alt="Sinister">
+                            <h5 class="bg-white bottom-card-title">Sinister</h5>
+                            <div class="bg-grey bottom-card">Subtitle</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Played recently section -->
+
+                <!-- Create for section -->
+                
+                <section class="recommended">
+                    <h2>Creato per Giorgia Meffe</h2>
+                    <h4 class="tips bg-grey">Più ascolti, più accurati saranno i suggerimenti</h4>
+                    <div class="row">                    
+                        <div class="card">
+                            <img class="top-card" src="../img/radar.jpeg" alt="Il tuo Realease Radar">
+                            <h5 class="bg-white bottom-card-title">Release Radar</h5>
+                        </div>
+                        
+                        <div class="card">
+                            <img class="top-card" src="../img/mixdaily.jpeg" alt="Il tuo Daily Mix 1">
+                            <h5 class="bg-white bottom-card-title">Daily Mix 1</h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- /Create for section -->
+                 
+                <!-- Famous artists section -->
+                <section class="recommended">
+                    <h2>Artisti più popolari</h2>
+                    <h4 class="tips bg-grey">Più ascolti, più accurati saranno i suggerimenti</h4>
+                    <div class="row">                  
+                        <div class="card">
+                            <img class="top-card roundimg" src="../img/youg.jpeg" alt="Young and Beautiful Lana Del Rey">
+                            <h5 class="bg-white bottom-card-title">Lana Del Rey</h5>
+                        </div>
+                        
+                        <div class="card">
+                            <img class="top-card roundimg" src="../img/einaudi.jpeg" alt="Einaudi">
+                            <h5 class="bg-white bottom-card-title">Einaudi</h5>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- /Famous artists section -->
+        </main>
+    </div>
+    
+    <!-- /Corpo della pagina -->
+     
+    <!-- Piede della pagina -->
+     
+    <footer>
+        <div class="left">
+            <div class="song">
+                <div>
+                    <img src="../img/sinister.jpeg" alt="Sinister">
+                </div>
+                <div class="name">
+                    <h5>Sinister</h5>
+                    <h6>Brano Nome</h6>
+                </div>
+                <div class="icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+            </div>
+
+            <div class="ciao">
+
+            </div>
+
+        </div>
+
+        <div class="center">
+
+
+
+        </div>
+
+        <div class="right">
+
+
+
+        </div>
+
+
+
+    </footer>
+
+    <!-- /Piede della pagina -->
+    
+</body>
+</html>
