@@ -220,9 +220,10 @@ h2 {
 }
 
 .card {
-    width: 210px;
+    width: calc((100% - 10px) / 2 );
     text-align: center;
 }
+
 
 .top-card {
     margin-bottom: 20px;
@@ -278,7 +279,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* Left part */
@@ -458,6 +459,9 @@ footer {
         display: none;
    }
 
+   /* Album */
+
+
 
 }
 
@@ -473,6 +477,11 @@ footer {
 
     .playicon2 {
         display: none;
+    }
+
+    .card {
+        width: calc((100% - 30px) / 4 );
+        text-align: center;
     }
 
 }
@@ -491,13 +500,16 @@ footer {
         display: block;
     }
 
+    .card {
+        width: calc((100% - 50px) / 6 );
+        text-align: center;
+    }
+
+
     .icon {
         flex-direction: row;
         gap: 8px;
     }
-
-
-
 
 
 
