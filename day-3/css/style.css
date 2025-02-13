@@ -293,6 +293,11 @@ footer {
 .icon {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+}
+
+.name {
+    margin-right: 8px;
 }
 
 /* Middle part */
@@ -318,21 +323,23 @@ footer {
     position: relative;
 }
 
-.time {
+.bar {
     width: 130px;
     height: 6px;
+    border-radius: 5px;
     background-color: #5c5c5c;
 }
 
-.time2 {
+.time {
     width: 28px;
     height: 6px;
     background-color: #c1c1c1;
     position: relative;
+    border-radius: 5px;
 
 }
 
-.time2:hover {
+.time:hover {
     background-color: #adff2f;
 
 }
@@ -352,10 +359,27 @@ footer {
 }
 
 
+
+/* Right part */
+
 .right {
-    height: 50px;
     width: 150px;
-    background-color: aqua;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.right .bar { 
+    width: 80px;
+
+}
+
+.time {
+    width: 13px;
 }
 
 
@@ -369,70 +393,71 @@ footer {
 @media screen and (min-width: 576px) {
 
 
-   .sidebar {
-    width: 225px;
-    padding: 20px 0 5px;
+   .sidebar { 
+      width: 225px;
+      padding: 20px 0 5px;
    }
 
 
    /* Logo */
 
    .logo-big {
-    display: block;
-    padding: 0px 70px 25px 20px;
+       display: block;
+       padding: 0px 70px 25px 20px;
     }
 
    .logo-small {
-    display: none;
+       display: none;
    }
 
    /* Menu sidebar */
 
    .menu img {
-    width: 20%;
-    display: inline-block;
+       width: 20%;
+       display: inline-block;
    }
 
    .menu-item {
-    padding-left: 10px;
-    display: inline;
-    color: #5c5c5c;
+        padding-left: 10px;
+        display: inline;
+        color: #5c5c5c;
    }
 
    .menu li {
-    display: flex;
-    align-items: center;
+       display: flex;
+       align-items: center;
    }
+    
+
 
    /* Playlist section */
 
    .playlist {
-    display: inline;
+       display: inline;
    }
 
    .playlist h3 {
-    margin-bottom: 10px;
-
-   }
+       margin-bottom: 10px;
+    }
 
    .playlist-icon {
-    margin-bottom: 20px;
+       margin-bottom: 20px;
    }
 
    /* Play-icon */
 
    .playicon {
-    display: block;
+       display: block;
    }
 
    .playcard {
-    filter: brightness(0.5);
+       filter: brightness(0.5);
    }
 
+   .playicon2 {  
+        display: none;
+   }
 
-   .playicon2 {
-    display: none;
-}
 
 }
 
