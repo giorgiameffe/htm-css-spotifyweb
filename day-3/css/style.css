@@ -92,6 +92,7 @@ footer {
 
 .menu-photo {
     opacity: 40%;
+    vertical-align: middle;
 }
 
 .menu li {
@@ -114,6 +115,7 @@ footer {
 
 .playlist-icon {
     font-size: 40px;
+    vertical-align: middle;
 }
 
 .playlist .playlist-icon{
@@ -302,6 +304,7 @@ footer {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
 
 }
 
@@ -312,6 +315,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 15px;
+    position: relative;
 }
 
 .time {
@@ -324,6 +328,12 @@ footer {
     width: 28px;
     height: 6px;
     background-color: #c1c1c1;
+    position: relative;
+
+}
+
+.time2:hover {
+    background-color: #adff2f;
 
 }
 
