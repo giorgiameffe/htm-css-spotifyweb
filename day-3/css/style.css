@@ -60,7 +60,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    position: sticky; 
+    position: sticky;
     top: 0px;
     left: 0px;
     z-index: 2;
@@ -111,7 +111,7 @@ footer {
     text-transform: uppercase;
     color: #ffffff;
 }
-    
+
 .playlist-icon {
     font-size: 40px;
 }
@@ -161,7 +161,7 @@ footer {
     border-radius: 40px;
 }
 
-/* Main */ 
+/* Main */
 
 
 .main-menu {
@@ -181,9 +181,9 @@ footer {
 
 }
 
-.main-menu a { 
+.main-menu a {
     color: #76787d;
-    
+
 
 }
 
@@ -279,6 +279,7 @@ footer {
     padding: 10px;
 }
 
+/* Left part */
 
 .song {
     display: flex;
@@ -287,13 +288,57 @@ footer {
     gap: 10px;
 }
 
+.icon {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Middle part */
+
 
 .middle {
     width: 200px;
-    height: 60px;
-    background-color: aqua;
+    font-size: 25px;
+    justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
 
+}
+
+/* Progress bar */
+
+.soundtrack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.time {
+    width: 130px;
+    height: 6px;
+    background-color: #5c5c5c;
+}
+
+.time2 {
+    width: 28px;
+    height: 6px;
+    background-color: #c1c1c1;
+
+}
+
+.soundtrack .minute {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.minute:first-child {
+    padding-right: 5px;
+}
+
+.minute:last-child {
+    padding-left: 5px;
 }
 
 
@@ -303,10 +348,8 @@ footer {
     background-color: aqua;
 }
 
-.icon {
-    display: flex;
-    flex-direction: column;
-}
+
+
 
 
 
@@ -314,7 +357,7 @@ footer {
 /* Responsive Layout */
 
 @media screen and (min-width: 576px) {
-    
+
 
    .sidebar {
     width: 225px;
@@ -359,7 +402,7 @@ footer {
 
    .playlist h3 {
     margin-bottom: 10px;
-    
+
    }
 
    .playlist-icon {
@@ -371,12 +414,12 @@ footer {
    .playicon {
     display: block;
    }
-   
+
    .playcard {
     filter: brightness(0.5);
    }
 
-   
+
    .playicon2 {
     display: none;
 }
@@ -384,11 +427,11 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    
+
     .playicon {
         display: none;
     }
-        
+
     .playcard {
         filter: brightness(100%);
     }
@@ -396,14 +439,15 @@ footer {
     .playicon2 {
         display: none;
     }
+
 }
 
 @media screen and (min-width: 992px) {
-    
+
     .playcard2 {
         filter: brightness(0.5);
     }
-        
+
     .playicon2 {
         position: relative;
         bottom: 200px;
@@ -420,13 +464,15 @@ footer {
 
 
 
+
+
 }
 
 
 
 
 
-    
+
 
 
 
