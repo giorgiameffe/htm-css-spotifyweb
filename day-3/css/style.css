@@ -283,25 +283,29 @@ footer {
 .song {
     display: flex;
     align-items: center;
-    width: 130px;
+    width: 150px;
+    gap: 10px;
 }
 
 
-
-
-
-
-.center {
+.middle {
     width: 200px;
     height: 60px;
     background-color: aqua;
+    display: flex;
 
 }
+
 
 .right {
     height: 50px;
     width: 150px;
     background-color: aqua;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -406,6 +410,11 @@ footer {
         color: white;
         font-size: 50px;
         display: block;
+    }
+
+    .icon {
+        flex-direction: row;
+        gap: 8px;
     }
 
 
