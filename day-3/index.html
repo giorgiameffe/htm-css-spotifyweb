@@ -32,26 +32,26 @@
 
             <!-- Menù -->
 
-            <ul class="menu bg-grey">
-                <li><a href="#"><img class="menu-photo" src="/img/home.svg" alt="Home"><span class="menu-item"></span><span class="menu-item">Home</span></a></li>
-                <li><a href="#"><img class="menu-photo" src="/img/search.svg" alt="Search"><span class="menu-item">Cerca</span></a></li>
-                <li><a href="#"><img class="menu-photo" src="/img/libreria.svg" alt="Library"><span class="menu-item">La tua libreria</span></a></li>
+            <ul class="menu">
+                <li class="home"><img class="menu-photo" src="/img/home.svg" alt="Home"><span class="menu-item">Home</span></li></a>
+                <li class="search"><a href="#"><img class="menu-photo" src="/img/search.svg" alt="Search"><span class="menu-item">Cerca</span></a></li>
+                <li class="library"><a href="#"><img class="menu-photo" src="/img/libreria.svg" alt="Library"><span class="menu-item">La tua libreria</span></a></li>
             </ul>
 
             <!-- /Menu -->
 
             <!-- Playlist -->
             
-            <section class="playlist bg-grey">
+            <section class="playlist">
                 <h3>Playlist</h3>
                 <div class="create">
-                    <span class="playlist-icon"><i class="fa-solid fa-square-plus"></i></span>
-                    <span class="playlist-text"> Crea Playlist</span>
+                    <a href="#"><span class="playlist-icon"><i class="fa-solid fa-square-plus"></i></span></a>
+                    <a href=""><span class="playlist-text"> Crea Playlist</span></a>
                 </div>
                 
                 <ul class="newplaylist">
-                    <li><a class="bg-grey" href="#">Nuova Playlist</a></li>
-                    <li><a class="bg-grey" href="#">Nuova Playlist</a></li>
+                    <li><a href="#">Nuova Playlist</a></li>
+                    <li><a href="#">Nuova Playlist</a></li>
                 </ul>
             </section>
 
@@ -59,7 +59,7 @@
             
             <!-- User profile -->
 
-            <ul class="menu profile bg-grey">
+            <ul class="menu profile">
                 <li class="list"><a href="#"><img class="menu-photo" src="/img/download.svg" alt="Download"><span class="menu-item">Installa App</span></a></li>
                 <li class="list"><a href="#"><img class="menu-photo" src="/img/profile.svg" alt="User Profile"><span class="menu-item">Giorgia Meffe</span></a></li>
             </ul>
@@ -86,12 +86,12 @@
             <!-- Menu -->
 
             <ul class="main-menu">
-                <li><a href="">In evidenza</a></li>
-                <li>Podcast</li>
-                <li>Classifiche</li>
-                <li>Generi e mood</li>
-                <li>Nuove uscite</li>
-                <li>Scopri</li>
+                <li><a href="#">In evidenza</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#">Classifiche</a></li>
+                <li><a href="#">Generi e mood</a></li>
+                <li><a href="#">Nuove uscite</a></li>
+                <li><a href="#">Scopri</a></li>
             </ul>
 
             <!-- Menu -->
@@ -103,39 +103,67 @@
                     <h2>Recently played</h2>
                     <div class="row">
                         <div class="card">
-                            <img class="top-card playcard" src="../img/metal_lifting.jpg" alt="Heavy Metal">                        
+                            <div class="album">
+                                <img class="top-card playcard" src="../img/metal_lifting.jpg" alt="Heavy Metal">
+                                <div class="playicon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h5 class="bg-white bottom-card-title">Heavy Metal</h5>
                             <div class="bg-grey bottom-card">Subtitle</div>
-                            <a href="#" class="playicon"><i class="fa-regular fa-circle-play"></i></a>
                         </div>
                         
                         <div class="card">
-                            <img class="top-card" src="../img/stranger.jpeg" alt="Stranger Things">
+                            <div class="album">
+                                <img class="top-card" src="../img/stranger.jpeg" alt="Stranger Things">
+                                <div class="playicon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h5 class="bg-white bottom-card-title">Stranger Things.Vol 1 (a Netflix Original Series Soundtrack)</h5>
                             <div class="bg-grey bottom-card">Kyle Dixon & Michael Stein</div>
                         </div>
                         
                         <div class="card">
-                            <img class="top-card playcard2" src="../img/aquietplace.jpeg" alt="A quiet place">
+                            <div class="album">
+                                <img class="top-card playcard2" src="../img/aquietplace.jpeg" alt="A quiet place">
+                                <div class="playicon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h5 class="bg-white bottom-card-title">A quiet place</h5>
                             <div class="bg-grey bottom-card">Subtitle</div>
-                            <a href="#" class="playicon2"><i class="fa-regular fa-circle-play"></i></a>
                         </div>
                         
                         <div class="card">
-                            <img class="top-card" src="../img/split.jpeg" alt="Slit">
+                            <div class="album">
+                                <img class="top-card" src="../img/split.jpeg" alt="Split">
+                                <div class="playicon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h5 class="bg-white bottom-card-title">Slit</h5>
                             <div class="bg-grey bottom-card">Subtitle</div>
                         </div>
                         
                         <div class="card">
-                            <img class="top-card" src="../img/cure.jpeg" alt="A cure for wellness">
+                            <div class="album">
+                                <img class="top-card" src="../img/cure.jpeg" alt="A cure for wellness">
+                                <div class="playicon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h5 class="bg-white bottom-card-title">A cure for wellness</h5>
                             <div class="bg-grey bottom-card">Subtitle</div>
                         </div>
                         
                         <div class="card">
-                            <img class="top-card" src="../img/sinister.jpeg" alt="Sinister">
+                            <div class="album">
+                                <img class="top-card" src="../img/sinister.jpeg" alt="Sinister">
+                                <div class="playicon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
                             <h5 class="bg-white bottom-card-title">Sinister</h5>
                             <div class="bg-grey bottom-card">Subtitle</div>
                         </div>
@@ -197,9 +225,9 @@
                 <div>
                     <img src="../img/sinister.jpeg" alt="Sinister">
                 </div>
-                <div class="name">
+                <div class="artist">
                     <h5 class="bg-white">Sinister</h5>
-                    <h6 class="bg-grey">Brano Nome</h6>
+                    <h6 class="bg-grey name">Brano Nome</h6>
                 </div>
                 <div class="icon bg-grey">
                     <i class="fa-regular fa-heart"></i>
@@ -213,7 +241,7 @@
         <!-- Progress bar  -->
 
         <div class="middle bg-white">
-            
+
             <i class="fa-solid fa-shuffle"></i>
             <i class="fa-solid fa-backward-step"></i>
             <i class="fa-regular fa-circle-play"></i>
